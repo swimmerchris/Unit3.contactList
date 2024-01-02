@@ -2,7 +2,7 @@
 
 export default function ContactDetails ({contact, setSelectedContactId}) {
     return (
-    <div>
+    <div className="selected">
         <h1>{contact.name}</h1>
         <hr />
         <p>Username: {contact.username}</p>

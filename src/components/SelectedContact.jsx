@@ -19,7 +19,6 @@ export default function SelectedContact ({selectedContactId, setSelectedContactI
         
     }, [])
 
-    console.log(contact)
     return(
         <>
         {contact ? (
